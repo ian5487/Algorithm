@@ -1,0 +1,47 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "1209.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPFs7TBY9emVs+dAAaIVhKO",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ian5487/Algorithm/blob/master/1209.docx\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "sjNDFbFfTzKn"
+      },
+      "source": [
+        "d(S,A)=1\r\n",
+        "\r\n",
+        "d(S,B)=2\r\n",
+        "\r\n",
+        "d(S,C)=5\r\n",
+        "\r\n",
+        "d(S,D)=min{d(S,A)+d(A,D),d(S,B)+d(B,D)}=min{1+4,2+11}=5\r\n",
+        "\r\n",
+        "d(S,F)=min{d(S,B)+d(B,F),d(S,C)+d(C,F)}=min{2+16,5+2}=7\r\n",
+        "\r\n",
+        "d(S,T)=min{d(S,D)+d(D,T)+,d(S,B)+d(B,T),d(S,F)+d(F,T)}=min{5+1,2+13,7+2}=6"
+      ]
+    }
+  ]
+}
